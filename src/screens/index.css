@@ -1,0 +1,17 @@
+.overlay {
+  width: 0%;
+  height: 100%;
+  background-color: rgba(3, 127, 255, 0.2);
+  position: absolute;
+}
+
+.listItem:hover .overlay {
+  width: 100%;
+  padding: 0%;
+  transition: 0.5s;
+} 
+
+.listItem:hover .listItemText {
+  color: #007bff !important;
+  transition: 0.5s;
+} 
