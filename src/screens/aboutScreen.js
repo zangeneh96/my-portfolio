@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   aboutGrid: {
-    paddingTop:30,
+    paddingTop: 30,
     paddingLeft: 10,
     paddingRight: 10,
     paddingBottom: 10,
@@ -46,7 +46,7 @@ export default function AboutScreen() {
     <Grid container className={classes.root} >
       <Grid container item xs={12} className={classes.aboutGrid}>
         <Grid container className={classes.mainAbout}>
-          <Grid item xs={12} md={6} style={{ height:280, paddingRight: 10, paddingLeft: 10 }} >
+          <Grid item xs={12} md={6} style={{ height: 280, paddingRight: 10, paddingLeft: 10 }} >
             <Typography variant="h3">
               {translate.hi}
               <span className={classes.nameText}>{translate.name}</span>
@@ -67,7 +67,7 @@ export default function AboutScreen() {
               {' : '}
               {translate.city}
             </Typography>
-            
+
             <Typography variant="body1" style={{ marginTop: 5 }}>
               <b style={{ minWidth: 90, display: 'inline-block', }}>{translate.education}</b>
               {' : '}
@@ -94,9 +94,8 @@ export default function AboutScreen() {
 
       <Grid container item xs={12} className={classes.aboutGrid}>
         <Grid container direction='row'>
-          <Service title={translate.education} desc="nothing :)" />
-          <Service title={translate.workingExperiance} desc="nothing :)" />
-          <Service title={translate.resumeTitle} desc="nothing :)" />
+          <Service title={translate.education} desc={translate.softwareEngineer} />
+          <Service title={translate.resumeTitle} desc={translate.noData} />
         </Grid>
       </Grid>
 

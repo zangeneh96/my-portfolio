@@ -57,5 +57,5 @@ export default {
     { id: 0, title: "مسابقه فتح پرچم رازی", des: "CTF(capture the flag)", image: "http://localhost:3000/static/media/hossin.d3dc2e7b.jpg", link:"https://ctf.razi.ac.ir" },
     { id: 1, title: "سامانه‌ای برای یادگیری  تست نفوذ", des: "cylab(Hacking skill test)", image:"http://localhost:3000/static/media/hossin.d3dc2e7b.jpg",link:"http://cylab.ir" },
   ],
-
+noData:"اطلاعاتی نیست",
 }

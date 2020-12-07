@@ -53,5 +53,6 @@ export default {
     { id: 0, title: "ctf razi", des: "CTF(capture the flag)", image: "http://localhost:3000/static/media/hossin.d3dc2e7b.jpg", link: "https://ctf.razi.ac.ir" },
     { id: 1, title: "cylab", des: "cylab(Hacking skill test)", image: "http://localhost:3000/static/media/hossin.d3dc2e7b.jpg", link: "http://cylab.ir" },
   ],
+  noData:"No Data",
 
 }
