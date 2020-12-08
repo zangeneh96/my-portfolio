@@ -94,8 +94,8 @@ export default function AboutScreen() {
 
       <Grid container item xs={12} className={classes.aboutGrid}>
         <Grid container direction='row'>
-          <Service title={translate.education} desc={translate.softwareEngineer} />
-          <Service title={translate.resumeTitle} desc={translate.noData} />
+          <Service title={translate.Ability} desc={translate.abilityDes} />
+          <Service title={translate.documents} desc={translate.documentsDes} />
         </Grid>
       </Grid>
 

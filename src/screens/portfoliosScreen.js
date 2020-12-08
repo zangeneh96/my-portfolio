@@ -2,8 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import { Grid } from '@material-ui/core'
 import Title from '../components/title'
-import { getTranslate } from '../localization/index';
+import { getTranslate } from '../localization/index'
 import Portfolio from '../components/portfolio'
+import ImgPro from '../assets/image/image.png'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,7 +29,7 @@ export default function PortfoliosScreen() {
       <Grid container item xs={12} direction="row" justify="flex-start" >
         {
           translate.portfolioList.map((protfolio) => (
-            <Portfolio title={protfolio.title} des={protfolio.des} image={protfolio.image} link={protfolio.link} key={protfolio.id} />
+          <Portfolio title={protfolio.title} des={protfolio.des} image={ImgPro} link={protfolio.link} key={protfolio.id} />
           ))
         }
       </Grid>

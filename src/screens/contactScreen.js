@@ -43,7 +43,7 @@ export default function ContactScreen() {
         <Title title={translate.contactMe} />
         <Grid container direction="row">
           <Grid item xs="12" md="6" className={classes.detailsGrid}>
-            <ContactInfo icon={<PhoneIcon className={classes.iconStyle} />} title={translate.phone} text1="0912345678" text2="0987654321" />
+            <ContactInfo icon={<PhoneIcon className={classes.iconStyle} />} title={translate.phone} text1="" text2="" />
             <ContactInfo icon={<EmailIcon className={classes.iconStyle} />} title={translate.email} text1="aftabzangeneh@gmail.com" text2="" />
             <ContactInfo icon={<AddIcon className={classes.iconStyle} />} title={translate.address} text1="kermanshah" text2="" />
           </Grid>

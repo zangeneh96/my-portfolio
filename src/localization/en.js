@@ -40,7 +40,7 @@ export default {
 
   workingExperianceSteps: [
     { id: 0, date: "2018-2019", title: "APA Razi university", content: "Razi University APA Specialized Center was a dynamic and creative environment to improve my work. I worked in this center for two years as a software expert and designer." },
-    { id: 1, date: "2019-2020", title: "Rad Pardaz Razi", content: "somthing that you can say in here" },
+    { id: 1, date: "2019-2020", title: "Rad Pardaz Razi", content: "In Radpardaz Razi Company, as a web designer, I have participated in the design of two systems with React." },
   ],
 
   contactMe: "CONTACT ME",
@@ -53,6 +53,9 @@ export default {
     { id: 0, title: "ctf razi", des: "CTF(capture the flag)", image: "http://localhost:3000/static/media/hossin.d3dc2e7b.jpg", link: "https://ctf.razi.ac.ir" },
     { id: 1, title: "cylab", des: "cylab(Hacking skill test)", image: "http://localhost:3000/static/media/hossin.d3dc2e7b.jpg", link: "http://cylab.ir" },
   ],
-  noData:"No Data",
-
+  noData: "No Data",
+  Ability: "Ability",
+  abilityDes: "Html-Css-Javascript-Laravel-React.js",
+  documentsDes: "CEH Certificate from Razi University APA Center - SOC Certificate from Razi University APA Center",
+  documents:"Documents",
 }
