@@ -61,5 +61,5 @@ export default {
   Ability: "مهارت در",
   abilityDes: "Html-Css-Javascript-Laravel-React.js",
   documentsDes: "مدرک هکر قانونمند از مرکز آپا دانشگاه رازی - مدرک مراکز عملیات امنیتی توسط مرکز آپا دانشگاه رازی ",
-  documents:"مدارک",
+  documents: "مدارک",
 }

@@ -32,10 +32,10 @@ export default {
   year: "2017",
 
   educationSteps: [
-    { id: 0, date: "2018-2019", title: "Elementary-scool", subtitle: "karaj univercity", content: "I spent my elementary school in Ehsan school in Kermanshah province" },
-    { id: 1, date: "2019-2020", title: "Middle-school", subtitle: "kermanshah univercity", content: "I spent my middle school years at an Iraqi school on Saadi Street" },
-    { id: 3, date: "2019-2020", title: "High-school", subtitle: "kermanshah univercity", content: "I spent my high school years at Jafari High School on Red Crescent Street (Shirokhorshid)" },
-    { id: 4, date: "2019-2020", title: "University", subtitle: "kermanshah univercity", content: "I completed my bachelor's degree in software engineering at Karaj University" },
+    { id: 0, date: "2005-2008", title: "Elementary-school", subtitle: "karaj univercity", content: "I spent my elementary school in Ehsan school in Kermanshah province" },
+    { id: 1, date: "2009-2011", title: "Middle-school", subtitle: "kermanshah univercity", content: "I spent my middle school years at an Iraqi school on Saadi Street" },
+    { id: 3, date: "2012-2013", title: "High-school", subtitle: "kermanshah univercity", content: "I spent my high school years at Jafari High School on Red Crescent Street (Shirokhorshid)" },
+    { id: 4, date: "2014-2017", title: "University", subtitle: "kermanshah univercity", content: "I completed my bachelor's degree in software engineering at Karaj University" },
   ],
 
   workingExperianceSteps: [
