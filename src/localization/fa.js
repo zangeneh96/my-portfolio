@@ -26,7 +26,7 @@ export default {
   FieldOfWork: "حوزه کاری ",
   workSamples: "تعداد نمونه کارها",
   YearOfActivity: "سال فعالیت",
-  dontHave: "ندارم",
+  dontHave: "2",
   year: "1396",
 
   educationSteps: [

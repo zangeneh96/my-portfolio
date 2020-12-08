@@ -28,7 +28,7 @@ export default {
 
   workSamples: "Number of work samples",
   YearOfActivity: "Year of activity",
-  dontHave: "nothing",
+  dontHave: "2",
   year: "2017",
 
   educationSteps: [
