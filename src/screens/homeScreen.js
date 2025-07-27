@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
     height: "100vh",
     overflow: "hidden",
     width: "100%",
+    margin: "4" ,
   },
   nameText: {
     color: theme.palette.primary.main,
@@ -43,8 +44,7 @@ export default function HomeScreen() {
   return (
     <Grid container item justify="center" alignItems="center" xs={12} className={classes.root}>
       <Grid>
-        <Typography variant="h2">{translate.hi}<span className={classes.nameText}>{translate.name}</span>{translate.hi2}</Typography>
-        <Typography variant="subtitle1">{translate.description}</Typography>
+        <Typography variant="subtitle1">{translate.FullIntroduce}</Typography>
         <div className={classes.divIcons}>
 
           <IconButton color="secondary" className={classes.iconButtonStyle}>
@@ -52,7 +52,13 @@ export default function HomeScreen() {
           </IconButton>
 
           <IconButton color="secondary" className={classes.iconButtonStyle}>
-            <LinkedInIcon />
+            <LinkedInIcon>
+            <a 
+      href="https://www.linkedin.com/in/parvinzangeneh" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    />
+      </LinkedInIcon>
           </IconButton>
 
           <IconButton color="secondary" className={classes.iconButtonStyle}>

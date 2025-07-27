@@ -48,9 +48,6 @@ export default function AboutScreen() {
         <Grid container className={classes.mainAbout}>
           <Grid item xs={12} md={6} style={{ height: 280, paddingRight: 10, paddingLeft: 10 }} >
             <Typography variant="h3">
-              {translate.hi}
-              <span className={classes.nameText}>{translate.name}</span>
-              {translate.hi2}
             </Typography>
             <Typography variant="body1" style={{ marginTop: 10 }}>
               <b style={{ minWidth: 90, display: 'inline-block', }}>{translate.fullName}</b>
@@ -78,24 +75,18 @@ export default function AboutScreen() {
               {' : '}
               {translate.working}
             </Typography>
-            <Typography variant="body1" style={{ marginTop: 5 }}>
-              <b style={{ minWidth: 90, display: 'inline-block', }}>{translate.workSamples}</b>
-              {' : '}
-              {translate.dontHave}
-            </Typography>
-            <Typography variant="body1" style={{ marginTop: 5 }}>
-              <b style={{ minWidth: 90, display: 'inline-block', }}>{translate.YearOfActivity}</b>
-              {' : '}
-              {translate.year}
-            </Typography>
           </Grid>
         </Grid>
       </Grid>
 
-      <Grid container item xs={12} className={classes.aboutGrid}>
+      <Grid container item xs={14} className={classes.aboutGrid}>
         <Grid container direction='row'>
           <Service title={translate.Ability} desc={translate.abilityDes} />
-          <Service title={translate.documents} desc={translate.documentsDes} />
+          <Service title={translate.WebTools} desc={translate.webToolDes} />
+          <Service title={translate.documents} desc={translate.documentsDes1} />
+          <Service title={translate.documents} desc={translate.documentsDes2} />
+          <Service title={translate.skillLangTitle} desc={translate.skillLangDes} />
+
         </Grid>
       </Grid>
 

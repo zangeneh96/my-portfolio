@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
     paddingTop: 30,
     paddingLeft: 30,
     paddingRight: 30,
-    paddingBottom: 60,
+    paddingBottom: 0,
     [theme.breakpoints.down('xs')]: {
       paddingRight: 5,
       paddingLeft: 5,
@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     marginLeft: 10,
   },
   skillFirsttitle:{
-    marginTop:20,
+    marginTop:10,
   }
 
 }))
@@ -41,20 +41,18 @@ export default function ResumeScreen() {
         <Title title={translate.resumeTitle} />
         <Grid container direction='row' >
           <Grid item xs={12} md={6}>
-            <Skill title="Html5" value={80} />
-            <Skill title="Java Script" value={60} />
-            <Skill title="React js" value={60} />
+            <Skill title="Html5" value={90} />
+            <Skill title="Java Script" value={80} />
+            <Skill title="React js" value={70} />
           </Grid>
           <Grid item xs={12} md={6}>
-            <Skill title="React Native" value={0} />
-            <Skill title="PHP" value={70} />
+            <Skill title="PHP" value={80} />
           </Grid>
         </Grid>
       </Grid>
 
 
       <Grid container item xs={12} className={classes.skillGrid}>
-        <Title title={translate.resume} />
         <Grid container direction='row' alignItems="center" justify="flex-start" className={classes.skillFirsttitle}>
           <WorkIcon style={{ fontSize: "20" }} />
           <Typography variant="h6" className={classes.skillSecondtitle}>

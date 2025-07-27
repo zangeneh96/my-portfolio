@@ -10,7 +10,7 @@ const useStyle = makeStyles(theme => ({
     marginTop:20,
   },
   main: {
-    height: 250,
+    height:300,
     zIndex: 1,
     border: '1px solid #2e344e',
     borderTop: '5px solid #2e344e',
