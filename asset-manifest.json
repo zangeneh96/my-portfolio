@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3376c559.chunk.css",
+    "main.js": "/static/js/main.8a84c756.chunk.js",
+    "main.js.map": "/static/js/main.8a84c756.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50aa3df5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50aa3df5.js.map",
+    "static/js/2.d2969283.chunk.js": "/static/js/2.d2969283.chunk.js",
+    "static/js/2.d2969283.chunk.js.map": "/static/js/2.d2969283.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3efa90a83690c53e5099ba40ef208455.js": "/precache-manifest.3efa90a83690c53e5099ba40ef208455.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3376c559.chunk.css.map": "/static/css/main.3376c559.chunk.css.map",
+    "static/js/2.d2969283.chunk.js.LICENSE.txt": "/static/js/2.d2969283.chunk.js.LICENSE.txt",
+    "static/media/fontiran.css": "/static/media/IRANSansWeb_UltraLight.bb7ec39f.woff",
+    "static/media/hossin.jpg": "/static/media/hossin.d3dc2e7b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50aa3df5.js",
+    "static/js/2.d2969283.chunk.js",
+    "static/css/main.3376c559.chunk.css",
+    "static/js/main.8a84c756.chunk.js"
+  ]
+}
